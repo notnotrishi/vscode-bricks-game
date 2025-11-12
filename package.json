@@ -1,0 +1,41 @@
+{
+  "name": "bricks-game",
+  "displayName": "🎮 Bricks Game",
+  "description": "A retro paddle-and-brick mini-game that runs inside VS Code. Built for fun, nostalgia, and quick coding breaks!",
+  "version": "1.0.0",
+  "publisher": "notnotrishi",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": ["Fun", "Other"],
+  "icon": "media/icon.png",
+  "activationEvents": ["onCommand:bricks.play"],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "bricks.play",
+        "title": "Play Bricks",
+        "category": "Bricks"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/notnotrishi/vscode-bricks-game"
+  },
+  "keywords": [
+    "game",
+    "fun",
+    "retro",
+    "arcade",
+    "vscode",
+    "bricks",
+    "breakout"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Rishi",
+    "url": "https://github.com/notnotrishi"
+  }
+}
