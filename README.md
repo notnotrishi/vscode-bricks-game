@@ -2,6 +2,8 @@
 
 A tiny retro paddle-and-brick game running *inside* VS Code.  
 Built for fun, nostalgia, coding breaks, and keyboard reflexes!
+<img width="1273" height="720" alt="image" src="https://github.com/user-attachments/assets/fcb6b157-923f-4da3-99bf-72726bfe8c65" />
+
 
 ---
 
